@@ -1,0 +1,161 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <!--<style name="AppTheme" parent="AppBaseTheme">-->
+        <!--&lt;!&ndash; All customizations that are NOT specific to a particular API-level can go here. &ndash;&gt;-->
+        <!--&lt;!&ndash; 设置应用程序没有标题 &ndash;&gt;-->
+        <!--&lt;!&ndash;<item name="@android:windowNoTitle">false</item>&ndash;&gt;-->
+    <!--</style>-->
+    <style name="AppTheme" parent="Theme.AppCompat">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/clr_red</item>
+        <item name="colorPrimaryDark">@color/bg_Gray</item>
+        <item name="colorAccent">@color/gray</item>
+        <item name="android:colorBackground">@color/clr_blue</item>
+        <item name="android:textColor">@color/clr_black</item>
+        <item name="editTextBackground">@color/clr_black</item>
+    </style>
+
+
+
+    <style name="TagHomeStyle" >
+        <item name="android:gravity">center</item>
+        <item name="android:padding">2dip</item>
+        <item name="android:button">@null</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/home_bt_selector</item>
+        <item name="android:layout_width">0dip</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <style name="WrapView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+    - <style name="text_main_style">
+    <item name="android:textSize">15.0sp</item>
+    <item name="android:textColor">@color/dark_gray</item>
+</style>
+    - <style name="text_title_style">
+    <item name="android:textSize">20.0sp</item>
+    <item name="android:textColor">@color/default_text_color</item>
+</style>
+    - <style name="large_text_white" parent="@android:style/Widget">
+    <item name="android:textSize">18sp</item>
+    <item name="android:textColor">@color/white</item>
+</style>
+    - <style name="register_button" parent="@style/large_text_white">
+    <item name="android:gravity">center</item>
+    <item name="android:paddingLeft">10.0dip</item>
+    <item name="android:paddingTop">10.0dip</item>
+    <item name="android:paddingRight">10.0dip</item>
+    <item name="android:paddingBottom">10.0dip</item>
+    <item name="android:layout_width">fill_parent</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:layout_marginLeft">10.0dip</item>
+    <item name="android:layout_marginTop">10.0dip</item>
+    <item name="android:layout_marginRight">10.0dip</item>
+    <item name="android:layout_marginBottom">10.0dip</item>
+</style>
+    <!-- 自定义仿IOS的ActionSheet底部Dialog的样式 ，有模糊效果 -->
+    <style name="ActionSheetDialogStyle" parent="@android:style/Theme.Dialog">
+
+        <!-- 背景透明 -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <!-- 浮于Activity之上 -->
+        <item name="android:windowIsFloating">true</item>
+        <!-- 边框 -->
+        <item name="android:windowFrame">@null</item>
+        <!-- Dialog以外的区域模糊效果 -->
+        <item name="android:backgroundDimEnabled">true</item>
+        <!-- 无标题 -->
+        <item name="android:windowNoTitle">true</item>
+        <!-- 半透明 -->
+        <item name="android:windowIsTranslucent">true</item>
+        <!-- Dialog进入及退出动画 -->
+        <item name="android:windowAnimationStyle">@style/ActionSheetDialogAnimation</item>
+    </style>
+    <!-- ActionSheet进出动画 -->
+    <style name="ActionSheetDialogAnimation" parent="@android:style/Animation.Dialog">
+        <item name="android:windowEnterAnimation">@anim/actionsheet_dialog_in</item>
+        <item name="android:windowExitAnimation">@anim/actionsheet_dialog_out</item>
+    </style>
+    <style name="popWindow_anim_style" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/pop_up_in</item>
+        <item name="android:windowExitAnimation">@anim/pop_down_out</item>
+    </style>
+
+    <!--极光的样式-->
+    <style name="MyDialogStyle">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    <!-- Loding_dialog样式Start -->
+    <style name="Dialog_bocop">
+        <item name="android:windowBackground">@color/bocop_dialog_bg</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+    </style>
+    <!-- Loding_dialog样式End -->
+    <style name="gray_666666_15sp">
+        <item name="android:textSize">15.0sp</item>
+        <item name="android:textColor">@color/dark_gray</item>
+    </style>
+    <style name="register_text" parent="@style/normal_text">
+        <item name="android:textColorHint">@color/light_gray</item>
+        <item name="android:gravity">left|center</item>
+        <item name="android:background">@null</item>
+        <item name="android:paddingTop">10.0dip</item>
+        <item name="android:paddingBottom">10.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">10.0dip</item>
+        <item name="android:layout_marginTop">10.0dip</item>
+        <item name="android:layout_marginRight">10.0dip</item>
+    </style>
+    <style name="normal_note" parent="@style/normal_text">
+        <item name="android:textSize">8.0sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/notes</item>
+        <item name="android:visibility">gone</item>
+        <item name="android:clickable">false</item>
+        <item name="android:layout_width">7.0dip</item>
+        <item name="android:layout_height">7.0dip</item>
+        <item name="android:digits">0123456789</item>
+    </style>
+    <style name="normal_text" parent="@android:style/Widget">
+        <item name="android:textSize">15.0sp</item>
+        <item name="android:textColor">@color/bg_Gray</item>
+    </style>
+
+    <style name="style_radio_button" parent="@style/TagHomeStyle">
+        <item name="android:background">@drawable/radio_button</item>
+    </style>
+</resources>

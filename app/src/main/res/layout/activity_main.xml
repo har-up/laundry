@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:context=".activity.MainActivity">
+
+    <!--style="@style/TaHomegStyle"-->
+    <!-- 这里是甄布局 -->
+    <FrameLayout
+        android:id="@+id/home_flayout_container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <RadioGroup
+        android:id="@+id/home_radio_group"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#141D2B"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/home_tab_main"
+            android:drawableTop="@drawable/ic_tab_main"
+            style="@style/style_radio_button"
+            android:text="首页" />
+
+        <RadioButton
+            android:id="@+id/home_tab_me"
+            style="@style/style_radio_button"
+            android:drawableTop="@drawable/ic_tab_me"
+            android:text="我的" />
+
+        <RadioButton
+            android:id="@+id/home_tab_share"
+            style="@style/style_radio_button"
+            android:drawableTop="@drawable/ic_tab_share"
+            android:text="推广"/>
+
+        <RadioButton
+            android:id="@+id/home_tab_more"
+            style="@style/style_radio_button"
+            android:drawableTop="@drawable/ic_tab_more"
+            android:text="服务" />
+    </RadioGroup>
+
+
+
+</LinearLayout>

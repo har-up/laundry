@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="clr_menu_bg">#2c3239</color>
+    <color name="clr_menu_bg1">#2c3239</color>
+    <color name="clr_menu_bg1_press">#464d56</color>
+    <color name="clr_menu_bg2">#343b44</color>
+    <color name="clr_menu_bg2_press">#616a74</color>
+
+    <color name="clr_main">#10cb7e</color>
+    <color name="clr_main_dep">#0aab68</color>
+    <color name="clr_black">#151d29</color>
+    <color name="clr_white">#fff</color>
+    <color name="clr_white_pressed">#eee</color>
+    <color name="clr_orange">#fc5a41</color>
+    <color name="clr_logout">#fc4152</color>
+    <color name="clr_yellow">#eebf53</color>
+    <color name="clr_yellow_111">#FAC702</color>
+    <color name="clr_lost_yellow">#ffb900</color>
+    <color name="clr_red">#fc4152</color>
+    <color name="clr_blue_pressed">#1c9ada</color>
+    <color name="clr_yellow_222d">#E7505E</color>
+
+
+    <!-- 分割线的颜色 -->
+    <color name="clr_line">#e5e5e5</color>
+
+    <color name="clr_grey_bg_f0">#f0f0f0</color>
+    <color name="clr_grey_bg_fa">#fafafa</color>
+    <color name="clr_grey_unclickable">#d0d0d0</color>
+    <color name="clr_grey_pressed">#474747</color>
+    <color name="clr_grey_aaa">#aaaaaa</color>
+    <color name="clr_grey_333">#333333</color>
+    <color name="clr_grey_666">#666666</color>
+    <color name="clr_grey_888">#888888</color>
+    <color name="clr_grey_999">#999999</color>
+
+    <color name="clr_white_trans">#0fff</color>
+    <color name="clr_blue">#09A3DC</color>
+    <color name="white">#ffffffff</color>
+    <color name="full_transparent">#00000000</color>
+    <color name="global_line">#ffdcdcdc</color>
+    <color name="dark_gray">#ff666666</color>
+    <color name="default_text_color">#ff333333</color>
+    <color name="light_gray">#ff999999</color>
+    <color name="gray">#EBEBEB</color>
+    <color name="gray_font">#818181</color>
+    <!-- 从底部弹出 -->
+    <color name="actionsheet_gray">#8F8F8F</color>
+    <color name="actionsheet_blue">#037BFF</color>
+    <!-- 灰色 -->
+
+    <color name="home_bt_selector">#ffffff</color>
+    <color name="bg_Gray">#CCCCCC</color>
+    <!-- 黑色 -->
+    <color name="tv_Black">#000000</color>
+    <!-- 浅灰色 -->
+    <color name="bg_Gray_light">#EEEEEE</color>
+    <!-- 红色 -->
+    <color name="tv_Red">#CC0000</color>
+
+    <color name="contents_text">#ff000000</color>
+    <color name="encode_view">#ffffffff</color>
+    <color name="possible_result_points">#c0ffbd21</color> <!-- Android standard ICS color -->
+    <color name="result_minor_text">#ffc0c0c0</color>
+    <color name="result_points">#c099cc00</color> <!-- Android standard ICS color -->
+    <color name="result_text">#ffffffff</color>
+    <color name="result_view">#b0000000</color>
+    <color name="status_text">#ffffffff</color>
+    <color name="transparent">#00000000</color>
+    <color name="viewfinder_laser">#ffcc0000</color> <!-- Android standard ICS color -->
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="dark_gray_line">#ffdcdcdc</color>
+    <color name="orange">#fff47b12</color>
+    <color name="global_background">#fff2f1ef</color>
+    <!-- 自定义Loding_Dialog_Start -->
+    <color name="bocop_dialog_bg">#77000000</color>
+    <!-- 自定义Loding_Dialog_End -->
+    
+    <array name="histogram_color">
+        <item></item>
+    </array>
+</resources>

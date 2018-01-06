@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">laundry</string>
+    <string name="main_menu_shops_title">结算</string>
+    <string name="settle_num_lable">数量</string>
+    <string name="settle_money_label">小计</string>
+    <string name="settle_total_label">总计</string>
+</resources>

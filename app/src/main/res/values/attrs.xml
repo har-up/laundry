@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="PiChart">
+        <attr name="showText" format="boolean"></attr>
+        <attr name="labelPositon" format="enum">
+            <enum name="left" value="0"/>
+            <enum name="right" value="1"/>
+        </attr>
+        <attr name="aaaaa" format="boolean"></attr>
+    </declare-styleable>
+
+    <declare-styleable name="zqxchart_histogram">
+        <!-- 坐标系颜色 -->
+        <attr name="hCoordinatesColor" format="color"/>
+        <attr name="rectTextColor" format="color"/>
+        <attr name="rectTextSize" format="integer"/>
+        <!-- x轴文字颜色 -->
+        <attr name="hxTextColor" format="color"/>
+        <!-- y轴文字颜色 -->
+        <attr name="hyTextColor" format="color"/>
+        <!-- x轴文字尺寸 -->
+        <attr name="hxTextSize" format="integer"/>
+        <!-- y轴文字尺寸 -->
+        <attr name="hyTextSize" format="integer"/>
+        <!-- x轴刻度点数量 -->
+        <attr name="hxPointCount" format="integer"/>
+        <!-- y轴刻度点数量 -->
+        <attr name="hyPointCount" format="integer"/>
+        <attr name="hanimType">
+            <enum name="NONE" value="-1"></enum>
+            <enum name="TRANSLATE" value="0"></enum>
+            <enum name="ALPHA" value="1"></enum>
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="CircleImageView">
+        <attr name="border_width" format="dimension" />
+        <attr name="border_color" format="color" />
+    </declare-styleable>
+</resources>
